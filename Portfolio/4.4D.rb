@@ -105,7 +105,7 @@ class GameWindow < Gosu::Window
         we = @columns[j-1][i-1].west == nil ? "0" : "1"
         puts "Cell x: " + (i-1).to_s + ", y: " + (j-1).to_s + " north:" + no + " south:" + so + " east:" + ea + " west:" + we
       end
-      puts "-------- End of row --------"
+      puts "============ End of row ============"
     end
   end
 
